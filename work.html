@@ -4,9 +4,11 @@ title: Work
 permalink: /work
 ---
 
-Recent and major projects: for older and more misc work, see <a href="/archive">Archive→</a>.
+<p>Recent and major projects: for older and more misc work, see <a href="/archive">Archive→</a>.</p>
 
+<section>
 {% for project in site.projects project.status == 'published' %}
 		<a href="{{ project.url }}">{{ project.title }} → </a><br>
 		{{ project.description }}<br>
 {% endfor %}
+</section>
