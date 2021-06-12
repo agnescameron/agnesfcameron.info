@@ -3,7 +3,7 @@ layout: main
 title: Teaching and Learning
 permalink: /teaching
 ---
-
+<h1>Teaching and Learning</h1>
 
 <h2>Reading Groups</h2>
 
@@ -12,7 +12,6 @@ permalink: /teaching
 {% for project in site.teaching  %}
 	{% if project.path contains 'reading' %}
 		<a href="{{ project.url }}">{{ project.title }} → </a><br>
-		{{ project.description }}<br>
 	{% endif %}
 {% endfor %}
 
@@ -22,7 +21,6 @@ permalink: /teaching
 {% for project in site.teaching %}
 	{% if project.path contains 'workshops' %}
 		<a href="{{ project.url }}">{{ project.title }} → </a><br>
-		{{ project.description }}<br>
 	{% endif %}
 {% endfor %}
 
@@ -32,7 +30,6 @@ permalink: /teaching
 {% for project in site.teaching %}
 	{% if project.path contains 'classes' %}
 		<a href="{{ project.url }}">{{ project.title }} → </a><br>
-		{{ project.description }}<br>
 	{% endif %}
 {% endfor %}
 

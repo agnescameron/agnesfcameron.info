@@ -6,8 +6,8 @@ status: published
 date: 18/05/20
 ---
 
+In Spring 2020, I taught Advanced Web Programming at Hunter College's Department of Film and Media Studies. The class was loosely themed around simulation and narrative on the web, with students' final projects including a text-based adventure game where players manage a medieval kingdom, a League of Legends simulator, and a driving game, complete with live radio.
 
-thankyou owen
+Thanks to [Owen Trueblood](https://owentrueblood.com/) for being the visting critic in our final class.
 
-student projects around simulation and narrative
-
+The website for the class is archived [here](https://webdevelopm.net/hunter/index.html).

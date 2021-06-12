@@ -1,0 +1,14 @@
+---
+layout: main
+title: News
+permalink: /teaching
+---
+<h1>News</h1>
+
+<p>NB: have only been regularly updating this page since 2021 (though I added some links for posterity), so it's not a very reliable archive.</p>
+
+{% for project in site.teaching  %}
+	{% if project.path contains 'reading' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% endif %}
+{% endfor %}

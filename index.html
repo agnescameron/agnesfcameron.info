@@ -8,6 +8,7 @@ permalink: /
 
 <h2><a href="http://soup.agnescameron.info">Blog →</a></h2>
 <div id="blog"></div>
+<a href="http://soup.agnescameron.info">[ ... ]</a>
 
 <h2><a href="/work">Recent Work →</a></h2>
 {% for project in site.projects limit:5 %}
@@ -15,11 +16,13 @@ permalink: /
 		<a href="{{ project.url }}">{{ project.title }} → </a><br>
 	{% endif %}
 {% endfor %}
+<a href="/work">[ ... ]</a>
 
 <h2>News</h2>
 {% for post in site.news limit:5 %}
 	{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.description }}<br>
 {% endfor %}
+<a href="/news">[ ... ]</a>
 
 <h2><a href="/teaching">Teaching + Learning →</a></h2>
 <h2><a href="/archive">Archive →</a></h2>

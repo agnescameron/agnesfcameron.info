@@ -3,7 +3,8 @@ layout: page
 title: An Introduction to the Bell System
 permalink: /bell/
 status: published
-img: img/bell/carryingplan9books.jpg
+img: /assets/img/bell/carryingplan9books.jpg
+description: embroidered jumpsuits based around the archives of the Computing Sciences Research Center at Bell Labs
 as: Foreign Objects
 date: 2021-03-17
 ---
