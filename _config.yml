@@ -29,6 +29,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
 
+collections_dir: collections
+
+collections:
+  archive:
+    output: true
+  projects:
+    output: true
+  news:
+    output: true
+  teaching:
+    output: true
+
+plugins:
+  - jekyll-feed
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -1,0 +1,39 @@
+---
+layout: main
+title: Teaching and Learning
+permalink: /teaching
+---
+
+
+<h2>Reading Groups</h2>
+
+<p>I currently (co)convene 2 reading groups. If you're interested in joining either, <a href="mailto:agnescam@mit.edu">send me a note</a></p>
+
+{% for project in site.teaching  %}
+	{% if project.path contains 'reading' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+		{{ project.description }}<br>
+	{% endif %}
+{% endfor %}
+
+
+<h2>Workshops</h2>
+
+{% for project in site.teaching %}
+	{% if project.path contains 'workshops' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+		{{ project.description }}<br>
+	{% endif %}
+{% endfor %}
+
+
+<h2>Classes</h2>
+
+{% for project in site.teaching %}
+	{% if project.path contains 'classes' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+		{{ project.description }}<br>
+	{% endif %}
+{% endfor %}
+
+

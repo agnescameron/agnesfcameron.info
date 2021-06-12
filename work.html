@@ -1,0 +1,12 @@
+---
+layout: main
+title: Work
+permalink: /work
+---
+
+Recent and major projects: for older and more misc work, see <a href="/archive">Archive→</a>.
+
+{% for project in site.projects project.status == 'published' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+		{{ project.description }}<br>
+{% endfor %}

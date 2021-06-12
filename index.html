@@ -1,0 +1,25 @@
+---
+layout: home
+title: Home
+permalink: /
+---
+
+{% include about.html %}
+
+<h2><a href="http://soup.agnescameron.info">Blog →</a></h2>
+<div id="blog"></div>
+
+<h2><a href="/work">Recent Work →</a></h2>
+{% for project in site.projects limit:5 %}
+	{% if project.status == 'published' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% endif %}
+{% endfor %}
+
+<h2>News</h2>
+{% for post in site.news limit:5 %}
+	{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.description }}<br>
+{% endfor %}
+
+<h2><a href="/teaching">Teaching + Learning →</a></h2>
+<h2><a href="/archive">Archive →</a></h2>
