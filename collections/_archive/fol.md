@@ -2,7 +2,7 @@
 layout: page
 title: MIT Media Lab Festival of Learning
 permalink: /fol/
-img: /assets/img/fol/fol_poster.jpg
+img: /assets/img/fol/FOL_poster.jpg
 status: published
 ---
 
