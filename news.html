@@ -7,6 +7,8 @@ permalink: /news
 
 <p>NB: have only been regularly updating this page since 2021 (though I added some links for posterity), so it's not a very reliable archive.</p>
 
-{% for post in site.news reversed %}
-	{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.description }}<br>
-{% endfor %}
+<div id="news">
+	{% for post in site.news reversed %}
+		{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.content }}<br>
+	{% endfor %}
+</div>

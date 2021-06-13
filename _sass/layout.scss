@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-/*my own, gross, css (should be a separate file really, ha ha)*/
-
-/*main page*/
-
 main {
 	max-width: 600px
 }
@@ -18,4 +14,16 @@ main {
 #imageContainer img {
     /*height: inherit;*/
     width: 40vw;
+}
+
+#news p {
+    display: block !important;
+    margin: 0px !important;
+    border: 0px !important;
+    padding: 0px !important;
+}
+
+
+.center {
+	margin-left: 580px;
 }

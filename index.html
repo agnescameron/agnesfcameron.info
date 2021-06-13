@@ -19,9 +19,11 @@ permalink: /
 <a href="/work">[ ... ]</a>
 
 <h2><a href="/news">News →</a></h2>
-{% for post in site.news reversed limit:5  %}
-	{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.description }}<br>
-{% endfor %}
+	<div id="news">
+		{% for post in site.news reversed limit:5  %}
+			{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.content }}<br>
+		{% endfor %}
+	</div>
 <a href="/news">[ ... ]</a>
 
 <h2><a href="/teaching">Teaching + Learning →</a></h2>

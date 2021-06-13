@@ -1,11 +1,7 @@
-console.log('getting')
-
 $.get('https://soup.agnescameron.info/feed.xml', function (data) {
 	console.log(data)
     $(data).find("item").each(function () {
         var post = $(this);
-        console.log("title      : " + post.find("title").text());
-        console.log("link: " + post.find("link").text());
         let date = new Date(post.find("pubDate").text());
         $('#blog').append(
         	`<a href="${post.find("link").text()}">${ (date.getMonth() + 1) + "/" + date.getFullYear().toString().slice(-2)}: ${post.find("title").text()} →</a> <br>`
@@ -21,3 +17,7 @@ function showPostImage(post) {
 function hidePostImage() {
     $('#imageContainer').css({display: 'none'})
 }
+
+console.log('getting last update')
+var date = new Date();
+$('#lastUpdate').html(`${ date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear().toString().slice(-2) }`)
