@@ -15,4 +15,4 @@ The game itself can be played [here](https://botor.no/), and the accompanying gu
 
 <img src="/assets/img/mozilla/screens.png" width="100%" />
 <img src="/assets/img/mozilla/ben.png" width="50%" /><br>
-<img src="/assets/img/mozilla/error-handling.png" width="70%" />
+<!-- <img src="/assets/img/mozilla/error-handling.png" width="70%" /> -->
