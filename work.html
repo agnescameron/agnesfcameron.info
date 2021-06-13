@@ -10,7 +10,6 @@ permalink: /work
 
 <section>
 {% for project in site.projects project.status == 'published' %}
-		<a href="{{ project.url }}">{{ project.title }} → </a><br>
-		{{ project.description }}<br>
+		<a onmouseenter="showPostImage('{{ project.img }}')" onmouseleave="hidePostImage()" href="{{ project.url }}">{{ project.title }} → </a><br>
 {% endfor %}
 </section>

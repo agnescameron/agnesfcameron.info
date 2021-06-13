@@ -7,3 +7,15 @@
 main {
 	max-width: 600px
 }
+
+#imageContainer {
+    position: fixed;
+    height: 40vh;
+    top: 100px;
+    left: 50vw;
+}
+
+#imageContainer img {
+    /*height: inherit;*/
+    width: 40vw;
+}

@@ -3,7 +3,7 @@ layout: page
 title: Computer World
 permalink: /computer-world/
 status: published
-img: /assets/img/computer-world/cw1.jpg
+img: /assets/img/computer-world/cw1.png
 as: Agnes Cameron
 description: a project exploring computer embodiment
 date: 2019-09-20

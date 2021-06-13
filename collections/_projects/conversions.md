@@ -5,6 +5,7 @@ permalink: /conversions/
 status: published
 img: /assets/img/conversions/conversions.jpg
 as: Agnes Cameron
+description: ongoing collaboration with artist Agnieszka Kurant
 date: 2019-09-20
 ---
 

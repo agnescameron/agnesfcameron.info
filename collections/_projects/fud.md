@@ -3,7 +3,7 @@ layout: page
 title: The First 10,000 Years
 permalink: /fud/
 status: published
-img: /assets/img/fud/fud-global_screenshot.jpg
+img: /assets/img/fud/fud-global.jpg
 as: Agnes Cameron
 date: 2020-10-16
 ---

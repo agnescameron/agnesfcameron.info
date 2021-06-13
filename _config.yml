@@ -36,6 +36,15 @@ collections:
     output: true
   projects:
     output: true
+    order:
+      - bell.md
+      - permaculture.md
+      - fud.md
+      - garden.md
+      - mozilla.md
+      - waste.md
+      - conversions.md
+      - computer-world.md
   news:
     output: true
   teaching:
