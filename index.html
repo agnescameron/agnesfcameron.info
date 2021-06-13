@@ -18,8 +18,8 @@ permalink: /
 {% endfor %}
 <a href="/work">[ ... ]</a>
 
-<h2>News</h2>
-{% for post in site.news limit:5 %}
+<h2><a href="/news">News →</a></h2>
+{% for post in site.news reversed limit:5  %}
 	{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.description }}<br>
 {% endfor %}
 <a href="/news">[ ... ]</a>
