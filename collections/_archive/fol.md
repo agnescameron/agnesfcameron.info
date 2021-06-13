@@ -12,6 +12,6 @@ For the 2020 edition, I was invited back to do the graphic design a second time.
 
 
 <img src="/assets/img/fol/last-supper-ii.png" width="100%" />
-<img src="/assets/img/fol/fol_poster.jpg" width="60%" />
+<img src="/assets/img/fol/FOL_poster.jpg" width="60%" />
 <img src="/assets/img/fol/recorder.png" width="60%" />
-<img src="/assets/img/fol/fol_poster_2019.png" width="60%" />
+<img src="/assets/img/fol/FOL_poster_2019.png" width="60%" />
