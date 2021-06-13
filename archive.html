@@ -7,5 +7,7 @@ permalink: /archive
 <h1>Archive</h1>
 
 {% for project in site.archive %}
-		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% if project.status == 'published' %}
+		<a onmouseenter="showPostImage('{{ project.img }}')" onmouseleave="hidePostImage()" href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% endif %}
 {% endfor %}

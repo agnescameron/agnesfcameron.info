@@ -1,5 +1,4 @@
 $.get('https://soup.agnescameron.info/feed.xml', function (data) {
-	console.log(data)
     $(data).find("item").each(function () {
         var post = $(this);
         let date = new Date(post.find("pubDate").text());

@@ -9,7 +9,9 @@ permalink: /work
 <p>Recent and major projects: for older and more misc work, see <a href="/archive">Archive→</a>.</p>
 
 <section>
-{% for project in site.projects project.status == 'published' %}
+{% for project in site.projects %}
+	{% if  project.status == 'published' %}
 		<a onmouseenter="showPostImage('{{ project.img }}')" onmouseleave="hidePostImage()" href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% endif %}
 {% endfor %}
 </section>

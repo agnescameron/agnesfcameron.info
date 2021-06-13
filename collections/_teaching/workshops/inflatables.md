@@ -20,12 +20,16 @@ Student documentation from the 2018 class:\
 [Jeremy Guilette](http://fab.cba.mit.edu/classes/863.18/Harvard/people/jeremy/2018/12/12/wildcard.html)
 
 Luiza and Ryan's giant cone:\
-<img src="/assets/img/inflatables/ryan_luiza_inflatable.jpg" width="70%" />
+<img src="/assets/img/inflatables/ryan_luiza_inflatable.jpg" width="70%" />\
+
+Miana's balcony spider:\
+<img src="/assets/img/inflatables/miana_balcony.png" width="70%" />\
 
 ### february school session 1: sewn inflatables + windsocks (with gary zhexi zhang)
 
 Students in MIT's ACT program ran a 'school within a school' over the month of February in 2018 and 2019. For the 2019 version, Gary and I ran a series of inflatables workshops. The first of these focussed on sewn inflatables, teaching students basic sewing skills, then explored different forms -- wearables, large fans, air+bicycle-powered.
 
+Mindy blesses the bicycle squid:
 <img src="/assets/img/inflatables/bicycle_squid.jpg" width="70%" />
 
 ### february school session 2: inflatables to live in (with gary zhexi zhang)
@@ -54,6 +58,9 @@ For the second iteration of HTMAA's wildcard week, students produced a really st
 
 Aubrey's spiny exoskeleton:\
 <img src="/assets/img/inflatables/aubrey.jpg" width="70%" />
+
+Emma and Chucho's Rebecca Horn-y wearable:\
+<img src="/assets/img/inflatables/emma_chucho.png" width="70%" />
 
 Student documentation from the 2019 class:\
 [Lavender Tessmer and Alex Waller](https://fab.cba.mit.edu/classes/863.19/Architecture/people/Lavender/wildcard.html)\

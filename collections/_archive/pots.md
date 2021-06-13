@@ -2,7 +2,7 @@
 layout: page
 title: Pots
 permalink: /pots/
-status: published
+status: draft
 ---
 
 ceramics studio MIT

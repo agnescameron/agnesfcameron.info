@@ -12,6 +12,6 @@ date: 2020-07-16
 
 We used an airtable as the CMS for the site -- a database construction that threw up a lot of questions about food taxonomy and categorisation, which Semine writes more about [here](https://writing.gardenblues.net/jekyll/update/2020/06/23/recipe-taxonomy.html).
 
-You can access the project [here](https://gardenblues.net/).
+You can access the project [here](https://gardenblues.net/), and we have a shared are.na channel for thoughts and images [here](https://www.are.na/agnes-cameron/proj-garden-of-blues).
 
 <img src="/assets/img/garden/garden.png" width="100%" />
