@@ -17,6 +17,15 @@ function hidePostImage() {
     $('#imageContainer').css({display: 'none'})
 }
 
+function backClick() {
+    if(document.referrer.indexOf('agnescameron.info') >= 0) {
+        history.go(-1);
+    }
+    else {
+        window.location.href = '/';
+    }
+}
+
 console.log('getting last update')
 var date = new Date();
 $('#lastUpdate').html(`${ date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear().toString().slice(-2) }`)
