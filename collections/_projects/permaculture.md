@@ -15,7 +15,7 @@ I wrote about the process of making the simulation [here](https://soup.agnescame
 
 It has since featured in the exhibition [Our Loves are not Only Human](https://schloss-post.com/our-loves-are-not-only-human/) at Schloss Solitude, and in Daphne Dragona's [publication](https://networkcultures.org/blog/publication/the-eternal-network/) for Transmediale 2020.
 
-You can access the work online [here](root.schloss-post.com/).
+You can access the work online [here](https://root.schloss-post.com/).
 
 <img src="/assets/img/permaculture/full-sim.png" width="100%" />
 <img src="/assets/img/permaculture/conversation.png" width="70%" />
