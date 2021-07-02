@@ -16,6 +16,15 @@ permalink: /teaching
 {% endfor %}
 
 
+<h2>Classes</h2>
+
+{% for project in site.teaching %}
+	{% if project.path contains 'classes' %}
+		<a href="{{ project.url }}">{{ project.title }} → </a><br>
+	{% endif %}
+{% endfor %}
+
+
 <h2>Workshops</h2>
 
 {% for project in site.teaching %}
@@ -26,13 +35,5 @@ permalink: /teaching
 	{% endif %}
 {% endfor %}
 
-
-<h2>Classes</h2>
-
-{% for project in site.teaching %}
-	{% if project.path contains 'classes' %}
-		<a href="{{ project.url }}">{{ project.title }} → </a><br>
-	{% endif %}
-{% endfor %}
 
 

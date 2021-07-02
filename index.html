@@ -20,7 +20,8 @@ permalink: /
 
 <h2><a href="/news">News →</a></h2>
 	<div id="news">
-		{% for post in site.news reversed limit:5  %}
+		{% assign news = site.news | sort: date | reverse %}
+		{% for post in news limit:5  %}
 			{{ post.date | date: "%d/%m/%Y" }} ↝ <b>{{ post.title }}</b> ↝ {{ post.content }}<br>
 		{% endfor %}
 	</div>
