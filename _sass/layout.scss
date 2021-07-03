@@ -6,14 +6,14 @@ main {
 
 #imageContainer {
     position: fixed;
-    height: 40vh;
+    max-height: 40vh;
     top: 100px;
     left: 50vw;
 }
 
 #imageContainer img {
     /*height: inherit;*/
-    width: 40vw;
+    width: 30vw;
 }
 
 #news p {

@@ -30,7 +30,7 @@ permalink: /teaching
 {% for project in site.teaching %}
 	{% if project.path contains 'workshops' %}
 		{% if project.status == 'published' %}
-			<a href="{{ project.url }}">{{ project.title }} → </a><br>
+			<a onmouseenter="showPostImage('{{ project.img }}')" onmouseleave="hidePostImage()" href="{{ project.url }}">{{ project.title }} → </a><br>
 		{% endif %}
 	{% endif %}
 {% endfor %}

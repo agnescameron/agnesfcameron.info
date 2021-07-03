@@ -2,7 +2,7 @@
 layout: page
 title: Bot Chat
 permalink: /botchat/
-img: /assets/img/botchat/
+img: /assets/img/botchat/being_bot.JPG
 as: Foreign Objects
 status: published
 ---

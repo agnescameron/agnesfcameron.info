@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Inflatables
+title: Inflatables Workshops
 permalink: /inflatables/
 status: published
 img: /assets/img/inflatables/dome.png
@@ -12,7 +12,7 @@ Since Summer 2018, myself (+ sometimes [Gary](https://zhexi.info)) have taught w
 
 ### How To Make Almost Anything, Wildcard Week 2018
 
-This was the first inflatables workshop I ran, and also the first iteration of 'wildcard week' in the class How to Make Almost Anything, where skills too specific to merit a week of their own in class are guest-taught, giving students a choice of different skills to learn. I ended up doing this 2 years in a row!
+This was the first inflatables workshop I ran, and also the first iteration of 'wildcard week' in the class [How to Make Almost Anything](http://fab.cba.mit.edu/classes/863.18/), where skills too specific to merit a week of their own in class are guest-taught, giving students a choice of different skills to learn. I ended up doing this 2 years in a row!
 
 Student documentation from the 2018 class:\
 [Miana M Smith](https://fab.cba.mit.edu/classes/863.18/EECS/people/miana/wildcard.html)\
